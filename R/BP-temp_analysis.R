@@ -127,7 +127,7 @@ emmeans_BL %>%
   geom_errorbar(aes(ymin = lower.CL2, ymax = upper.CL2), size = 0.8, width = 0.1, 
                 position = position_dodge(0.5)) +
   geom_point(size = 3, position = position_dodge(0.5)) +
-  xlab("Acute test temperature (°C)") +
+  xlab("Acute test temperature (Â°C)") +
   ylab(expression(italic("U")["crit"]~"(BL s"^"-1"*")")) + 
   scale_color_manual(values = c("#879FDB", "#002F70",       # blue
                                 "#CB6CA2", "#6D1C68",       # purple
@@ -230,8 +230,8 @@ CS_emmeans_all %>%
   geom_errorbar(aes(ymin = lower.CL, ymax = upper.CL), size = 0.8, width = 0.1, 
                 position = position_dodge(0.5)) +
   geom_point(size = 3, position = position_dodge(0.5)) +
-  xlab("Acute test temperature (°C)") +
-  ylab(expression("CS activity (µmol min"^"-1"*" g"^"-1"*")")) +
+  xlab("Acute test temperature (Â°C)") +
+  ylab(expression("CS activity (Âµmol min"^"-1"*" g"^"-1"*")")) +
   scale_color_manual(values = c("#879FDB", "#002F70",       # blue
                                 "#CB6CA2", "#6D1C68",       # purple
                                 "#81CA9F", "#14505C")) +    # green
@@ -264,8 +264,8 @@ LDH_emmeans_all %>%
   geom_errorbar(aes(ymin = lower.CL, ymax = upper.CL), size = 0.8, width = 0.1, 
                 position = position_dodge(0.5)) +
   geom_point(size = 3, position = position_dodge(0.5)) +
-  xlab("Acute test temperature (°C)") +
-  ylab(expression("LDH activity (µmol min"^"-1"*" g"^"-1"*")")) +
+  xlab("Acute test temperature (Â°C)") +
+  ylab(expression("LDH activity (Âµmol min"^"-1"*" g"^"-1"*")")) +
   scale_color_manual(values = c("#879FDB", "#002F70",       # blue
                                 "#CB6CA2", "#6D1C68",       # purple
                                 "#81CA9F", "#14505C")) +    # green
@@ -282,7 +282,7 @@ clean_ucrit_data %>%
                position = position_dodge(0.5), size = 1, width = 0.2) +
   stat_summary(fun.y = mean, geom = "point", 
                position = position_dodge(0.5), size = 3) +
-  xlab("Test temperature (°C)") +
+  xlab("Test temperature (Â°C)") +
   ylab(expression(italic("U")["crit"]~"(BL s"^"-1"*")")) + 
   scale_shape_manual(values = c(16, 16, 17, 17)) +
   scale_color_manual(values = c("#023FA5", "#8E063B")) +
@@ -299,8 +299,8 @@ clean_enzyme_data %>%
                position = position_dodge(0.5), size = 1, width = 0.2) +
   stat_summary(fun.y = mean, geom = "point", 
                position = position_dodge(0.5), size = 3) +
-  xlab("Test temperature (°C)") +
-  ylab(expression("CS activity (µmol min"^"-1"*" g"^"-1"*")")) +
+  xlab("Test temperature (Â°C)") +
+  ylab(expression("CS activity (Âµmol min"^"-1"*" g"^"-1"*")")) +
   scale_shape_manual(values = c(16, 16, 17, 17)) +
   scale_color_manual(values = c("#023FA5", "#8E063B")) +
   mytheme() + facet_grid(bisphenol ~ temp)
@@ -314,8 +314,8 @@ clean_enzyme_data %>%
                position = position_dodge(0.5), size = 1, width = 0.2) +
   stat_summary(fun.y = mean, geom = "point", 
                position = position_dodge(0.5), size = 3) +
-  xlab("Test temperature (°C)") +
-  ylab(expression("LDH activity (µmol min"^"-1"*" g"^"-1"*")")) +
+  xlab("Test temperature (Â°C)") +
+  ylab(expression("LDH activity (Âµmol min"^"-1"*" g"^"-1"*")")) +
   scale_shape_manual(values = c(16, 16, 17, 17)) +
   scale_color_manual(values = c("#023FA5", "#8E063B")) +
   mytheme() + facet_grid(bisphenol ~ temp)
@@ -330,7 +330,7 @@ clean_ucrit_data %>%
   geom_jitter(size = 3, position = position_dodge(0.5), colour = "grey", alpha = 0.3) +
   stat_summary(fun.data = data_summary, geom = "errorbar", position = position_dodge(0.5), size = 1, width = 0.1) +
   stat_summary(fun.y = mean, geom = "point", position = position_dodge(0.5), size = 3) +
-  xlab("Acute test temperature (°C)") +
+  xlab("Acute test temperature (Â°C)") +
   ylab(expression("Percentage change in"~italic("U")["crit"]~"(%)")) + 
   scale_color_manual(values = c("#879FDB", "#002F70",       # blue
                                 "#CB6CA2", "#6D1C68",       # purple
