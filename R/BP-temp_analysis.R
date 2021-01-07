@@ -1,5 +1,5 @@
 # Author: Nicholas Wu (nicholas.wu.nz@gmail.com)
-# Date: xx/07/2020
+# Date: 20/07/2020
 # R version: 3.5.1 -- "Feather Spray"
 # Paper ID: EDC/temp performance paper
 # Description: Data analysis & figure production
