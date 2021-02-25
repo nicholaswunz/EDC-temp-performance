@@ -14,8 +14,8 @@
 *length:* Standard lenght (tip of the snout to the posterior end of the last vertebra; cm) prior to temperature-bisphenol exposure;  
 *length.2:* Standard lenght (m) prior to temperature-bisphenol exposure;  
 *condition:* Fish condition (100 x (mass_g / (length_m * 100) ^ 3) prior to temperature-bisphenol exposure;  
-*ucrit_pre:* Critical sustained swimming speed (m s⁻¹) prior to temperature-bisphenol exposure;  
-*ucrit2_pre:* Critical sustained swimming speed corrected for body length (BL s⁻¹) prior to temperature-bisphenol exposure; 
+*ucrit_pre:* Critical sustained swimming speed (m s⁻¹) prior to temperature-bisphenol exposure;
+*ucrit2_pre:* Critical sustained swimming speed corrected for body length (BL s⁻¹) prior to temperature-bisphenol exposure;
 *body.mass_post:* Wet weight (g) 21 days post-temperature-bisphenol exposure;  
 *length_post:* Standard lenght (tip of the snout to the posterior end of the last vertebra; cm) 21 days post-temperature-bisphenol exposure;  
 *length2_post:* Standard lenght (m) 21 days post-temperature-bisphenol exposure;  
