@@ -3,6 +3,7 @@
 This repository contains code and data needed to reproduce the article:
 
 **Wu N. C., & Seebacher, F.** (2021) Bisphenols alter thermal responses and performance in zebrafish (*Danio rerio*). *Conservation Physiology*, **9**, coaa138. DOI:
+
 [![DOI](https://zenodo.org/badge/DOI/10.1093/conphys/coaa138.svg)](https://doi.org/10.1093/conphys/coaa138)
 
 **Raw data**
