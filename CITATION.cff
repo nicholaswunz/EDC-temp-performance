@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+authors:
+  - family-names: "Wu"
+    given-names: "Nicholas C."
+    orcid: "https://orcid.org/0000-0002-7130-1279"
+  - family-names: "Seebacher"
+    given-names: "Frank"
+    orcid: "https://orcid.org/0000-0002-2281-9311"
+title: "Bisphenols alter thermal responses and performance in zebrafish (Danio rerio)"
+version: 1.0.0
+date-released: 2022-01-16
+url: "https://github.com/nicholaswunz/EDC-temp-performance"
